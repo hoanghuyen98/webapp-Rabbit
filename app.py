@@ -2,7 +2,7 @@ from flask import *
 import mlab
 from models.user import Body, User
 from models.video import Video, Underweight, Yoga, Cardio, Exercise
-from youtube_dl import YoutubeDL 
+from youtube_dl import YoutubeDL
 import datetime
 
 app = Flask(__name__)
@@ -248,4 +248,4 @@ def getlean(bmi_id):
 
 
 if __name__ == '__main__':
-  app.run()
+  app.run(debug=True)
