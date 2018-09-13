@@ -2,7 +2,7 @@ from flask import *
 import mlab
 from models.user import Body, User
 from models.video import Video, Underweight, Yoga, Cardio, Exercise
-from youtube_dl import YoutubeDL
+from youtube-dl import YoutubeDL
 import datetime
 
 app = Flask(__name__)
